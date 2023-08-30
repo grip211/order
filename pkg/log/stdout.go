@@ -21,9 +21,9 @@ func Colored(content string, color Color) string {
 
 // nolint:gochecknoglobals // it's OK
 var (
-	cyan   = Colored("[LUNTIK]", Cyan)
-	yellow = Colored("[LUNTIK]", Yellow)
-	red    = Colored("[LUNTIK]", Red)
+	cyan   = Colored("[ORDER]", Cyan)
+	yellow = Colored("[ORDER]", Yellow)
+	red    = Colored("[ORDER]", Red)
 )
 
 func Info(message interface{}) {

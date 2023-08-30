@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/doug-martin/goqu/v9 v9.18.0
-	github.com/gofiber/fiber/v2 v2.48.0
+	github.com/gofiber/fiber/v2 v2.49.0
 	github.com/gofiber/template/html/v2 v2.0.5
 	github.com/lib/pq v1.10.9
 	github.com/nats-io/nats.go v1.28.0
