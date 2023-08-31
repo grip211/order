@@ -74,7 +74,7 @@ func Main(ctx *cli.Context) error {
 	appContext, cancel := context.WithCancel(ctx.Context)
 	defer func() {
 		cancel()
-		log.Info("app context is canceled, Luntik is down!")
+		log.Info("app context is canceled, Order is down!")
 	}()
 
 	cfg, err := config.New(ctx.String("config-file"))
